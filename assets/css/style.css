@@ -1,0 +1,101 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+h1{
+    background-color: orange;
+    color: white;
+    clear: both;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #ddd;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+h2 {
+	font-family:'Roboto Slab', 'Serif';
+	Font-weight: bold;
+	font-size: 21px;
+
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#intro {
+	background-color: white;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+    border: solid 1px #ddd;
+	font-family: 'Roboto Slab', serif;
+	margin: 0 auto !important;
+	display: table !important;
+}
+
+#numberGuessed {
+		background-color: purple;
+		padding: 10px;
+		margin-top: 25px !important;
+		border: solid 1px #000000;
+		margin: 0 auto;
+		display: table;
+}
+
+
+
+#currentScore {
+	background-color: yellow;
+	display: table;
+	margin: 0 auto;
+	padding: 15px 20px 10px 15px;
+	margin-top: 25px;
+	border: solid 1px #0000000;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', 'serif';
+	line-height: 35px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #000000;
+	margin: 0 auto;
+	display: table;
+	margin-top:25px;
+}
+
+.crystalImage:firstchild {
+	margin: 0 auto;
+	display: table;
+	
+}
+
+#totalScore {
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#playerTotalScore {
+	background: #f11079;
+	display: table;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding: 20px;
+    border: solid 1px #000000;
+    font-family: 'Roboto Slab', serif;
+    
+}
